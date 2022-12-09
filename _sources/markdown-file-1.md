@@ -15,14 +15,14 @@ Here is a reference to Auston Matthews {numref}`auston-matthews`.
 (section-label-1)=
 ## example code cell 1
 
-```{code-cell}
+```
 print(2 + 2)
 ```
 
 (section-label-2)=
 ## example code cell 2
 
-```{code-cell}
+```
 print('This is a string')
 ```
 
@@ -30,7 +30,7 @@ print('This is a string')
 
 ```{math}
 :label: math_1
-\(x^2 + y^2 = z^2\)
+x^2 + y^2 = z^2
 ```
 
 
@@ -38,7 +38,7 @@ print('This is a string')
 
 ```{math}
 :label: math_2
-\[E=mc^2\]
+E=mc^2
 ```
 
 
