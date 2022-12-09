@@ -1,11 +1,10 @@
-# Welcome to your Jupyter Book
+# Justin Duckett's Jupyter Book
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+This is a sample Jupyter Book for the UBC Data Science Toolbox course.
 
-Check out the content pages bundled with this sample book to see more.
+The goal of this book will be to illustrate some sample content in markdown and notebook files. This book does not aim to solve any data science problem.
+
+Check out the content pages bundled with this book to see more.
 
 ```{tableofcontents}
 ```

@@ -1,21 +1,14 @@
-# Here's my sample title
+# Citation Examples
 
-This is some sample text.
+{cite}`holdgraf_evidence_2014`
 
-(section-label-1)=
-## Here's my first section
+{cite}`holdgraf_rapid_2016`
 
-Here is a [reference to the intro](intro.md). Here is a reference to [](section-label-1).
+{cite}`holdgraf_portable_2017`
 
-## An example cell
+{cite}`holdgraf_encoding_2017`
 
-With MyST Markdown, you can define code cells with a directive like so:
-
-```{code-cell}
-print(2 + 2)
-```
-
-## Citations
+{cite}`ruby`
 
 You can also cite references that are stored in a `bibtex` file. For example,
 the following syntax: `` {cite}`holdgraf_evidence_2014` `` will render like
