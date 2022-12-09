@@ -2,7 +2,7 @@
 
 ## example cross referencing
 
-Here is a [reference to the intro](intro.md). 
+Here is a [reference to the markdown file 2](markdown-file-2.md). 
 
 Here is a reference to [](section-label-1).
 
@@ -15,14 +15,14 @@ Here is a reference to Auston Matthews {numref}`auston-matthews`.
 (section-label-1)=
 ## example code cell 1
 
-```{code-cell}
+```
 print(2 + 2)
 ```
 
 (section-label-2)=
 ## example code cell 2
 
-```{code-cell}
+```
 print('This is a string')
 ```
 
@@ -30,7 +30,7 @@ print('This is a string')
 
 ```{math}
 :label: math_1
-\(x^2 + y^2 = z^2\)
+x^2 + y^2 = z^2
 ```
 
 
@@ -38,7 +38,7 @@ print('This is a string')
 
 ```{math}
 :label: math_2
-\[E=mc^2\]
+E=mc^2
 ```
 
 
@@ -54,17 +54,9 @@ I'm a note!
 I'm a warning!
 ```
 
-```{tip}
-I'm a tip!
-```
-
-```{danger}
-I'm danger!
-```
-
 ## example image 1
 
- ```{figure} https://en.wikipedia.org/wiki/Toronto_Maple_Leafs#/media/File:Auston_Matthews_9.jpg
+ ```{figure} https://upload.wikimedia.org/wikipedia/commons/c/cd/Auston_Matthews_9.jpg
  ---
  height: 300px
  name: auston-matthews
@@ -75,12 +67,12 @@ I'm danger!
 
 ## example image 2
 
- ```{figure} https://en.wikipedia.org/wiki/Toronto_Maple_Leafs#/media/File:Toronto_Maple_Leafs_2016_logo.svg
+ ```{figure} https://upload.wikimedia.org/wikipedia/commons/0/0d/2016_NHL_All-Star_Game_%2824660206292%29.jpg
  ---
  height: 300px
- name: leafs-logo
+ name: leafs-banner
  ---
- Toronto Maple Leafs logo
+ Toronto Maple Leafs banner
  ```
 
 

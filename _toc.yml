@@ -3,8 +3,15 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown-file-1
-- file: markdown-file-2
-- file: notebook-file-1
-- file: notebook-file-2
+parts:
+- caption: Example 1 files
+  chapters:
+  - file: markdown-file-1
+  - file: notebook-file-1
+- caption: Example 2 files
+  chapters: 
+  - file: markdown-file-2
+  - file: notebook-file-2
+- caption: Citation Examples
+  chapters: 
+  - file: citation-examples
