@@ -54,7 +54,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Markdown File 2" href="markdown-file-2.html" />
+    <link rel="next" title="Notebook File 2" href="notebook-file-1.html" />
     <link rel="prev" title="Justin Duckett’s Jupyter Book" href="intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -115,20 +115,32 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Example 1 files
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Markdown File 1
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="markdown-file-2.html">
-   Markdown File 2
+  <a class="reference internal" href="notebook-file-1.html">
+   Notebook File 2
   </a>
  </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Example 2 files
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="notebook-file-1.html">
-   Notebook File 1
+  <a class="reference internal" href="markdown-file-2.html">
+   Markdown File 2
   </a>
  </li>
  <li class="toctree-l1">
@@ -136,6 +148,13 @@ const thebe_selector_output = ".output, .cell_output"
    Notebook File 2
   </a>
  </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Citation Examples
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="citation-examples.html">
    Citation Examples
@@ -451,9 +470,9 @@ title="Print to PDF"
 <h1>Markdown File 1<a class="headerlink" href="#markdown-file-1" title="Permalink to this headline">#</a></h1>
 <section id="example-cross-referencing">
 <h2>example cross referencing<a class="headerlink" href="#example-cross-referencing" title="Permalink to this headline">#</a></h2>
-<p>Here is a <a class="reference internal" href="intro.html"><span class="doc std std-doc">reference to the intro</span></a>.</p>
+<p>Here is a <a class="reference internal" href="markdown-file-2.html"><span class="doc std std-doc">reference to the markdown file 2</span></a>.</p>
 <p>Here is a reference to <a class="reference internal" href="#section-label-1"><span class="std std-ref">example code cell 1</span></a>.</p>
-<p>Here is a reference to <a class="reference internal" href="#section-label-2"><span class="std std-ref">example code cell 2</span></a>.</p>
+<p>Here is a reference to <a class="reference internal" href="markdown-file-2.html#section-label-2"><span class="std std-ref">example code cell 2</span></a>.</p>
 <p>Here is a reference to the Pythagorean theorem <a class="reference internal" href="#equation-math-1">(1)</a>.</p>
 <p>Here is a reference to Auston Matthews <a class="reference internal" href="#auston-matthews"><span class="std std-numref">Fig. 1</span></a>.</p>
 </section>
@@ -492,19 +511,11 @@ title="Print to PDF"
 <p class="admonition-title">Warning</p>
 <p>I’m a warning!</p>
 </div>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>I’m a tip!</p>
-</div>
-<div class="admonition danger">
-<p class="admonition-title">Danger</p>
-<p>I’m danger!</p>
-</div>
 </section>
 <section id="example-image-1">
 <h2>example image 1<a class="headerlink" href="#example-image-1" title="Permalink to this headline">#</a></h2>
 <figure class="align-default" id="auston-matthews">
-<a class="reference internal image-reference" href="https://en.wikipedia.org/wiki/Toronto_Maple_Leafs#/media/File:Auston_Matthews_9.jpg"><img alt="https://en.wikipedia.org/wiki/Toronto_Maple_Leafs#/media/File:Auston_Matthews_9.jpg" src="https://en.wikipedia.org/wiki/Toronto_Maple_Leafs#/media/File:Auston_Matthews_9.jpg" style="height: 300px;" /></a>
+<a class="reference internal image-reference" href="https://upload.wikimedia.org/wikipedia/commons/c/cd/Auston_Matthews_9.jpg"><img alt="https://upload.wikimedia.org/wikipedia/commons/c/cd/Auston_Matthews_9.jpg" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Auston_Matthews_9.jpg" style="height: 300px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 1 </span><span class="caption-text">Auston Matthews</span><a class="headerlink" href="#auston-matthews" title="Permalink to this image">#</a></p>
 </figcaption>
@@ -512,10 +523,10 @@ title="Print to PDF"
 </section>
 <section id="example-image-2">
 <h2>example image 2<a class="headerlink" href="#example-image-2" title="Permalink to this headline">#</a></h2>
-<figure class="align-default" id="leafs-logo">
-<a class="reference internal image-reference" href="https://en.wikipedia.org/wiki/Toronto_Maple_Leafs#/media/File:Toronto_Maple_Leafs_2016_logo.svg"><img alt="https://en.wikipedia.org/wiki/Toronto_Maple_Leafs#/media/File:Toronto_Maple_Leafs_2016_logo.svg" height="300px" src="https://en.wikipedia.org/wiki/Toronto_Maple_Leafs#/media/File:Toronto_Maple_Leafs_2016_logo.svg" /></a>
+<figure class="align-default" id="leafs-banner">
+<a class="reference internal image-reference" href="https://upload.wikimedia.org/wikipedia/commons/0/0d/2016_NHL_All-Star_Game_%2824660206292%29.jpg"><img alt="https://upload.wikimedia.org/wikipedia/commons/0/0d/2016_NHL_All-Star_Game_%2824660206292%29.jpg" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/2016_NHL_All-Star_Game_%2824660206292%29.jpg" style="height: 300px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Toronto Maple Leafs logo</span><a class="headerlink" href="#leafs-logo" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Toronto Maple Leafs banner</span><a class="headerlink" href="#leafs-banner" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -562,10 +573,10 @@ title="Print to PDF"
             <p class="prev-next-title">Justin Duckett’s Jupyter Book</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="markdown-file-2.html" title="next page">
+    <a class='right-next' id="next-link" href="notebook-file-1.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Markdown File 2</p>
+        <p class="prev-next-title">Notebook File 2</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

@@ -50,10 +50,12 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Citation Examples" href="citation-examples.html" />
-    <link rel="prev" title="Notebook File 1" href="notebook-file-1.html" />
+    <link rel="prev" title="Markdown File 2" href="markdown-file-2.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -113,20 +115,32 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Example 1 files
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="markdown-file-1.html">
    Markdown File 1
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="markdown-file-2.html">
-   Markdown File 2
+  <a class="reference internal" href="notebook-file-1.html">
+   Notebook File 2
   </a>
  </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Example 2 files
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="notebook-file-1.html">
-   Notebook File 1
+  <a class="reference internal" href="markdown-file-2.html">
+   Markdown File 2
   </a>
  </li>
  <li class="toctree-l1 current active">
@@ -134,6 +148,13 @@ const thebe_selector_output = ".output, .cell_output"
    Notebook File 2
   </a>
  </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Citation Examples
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="citation-examples.html">
    Citation Examples
@@ -349,6 +370,99 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="notebook-file-2">
 <h1>Notebook File 2<a class="headerlink" href="#notebook-file-2" title="Permalink to this headline">#</a></h1>
+<p>example of a math formula with LATEX:
+$<span class="math notranslate nohighlight">\(
+area = length x width
+\)</span>$</p>
+<p>example of a math formula with LATEX:
+$<span class="math notranslate nohighlight">\(
+\sqrt[root]{arg}
+\)</span>$</p>
+<p>example of an image file:</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/3/36/MapleLeafGardens1934.jpg" width="15%"></img></p>
+<p>example of an image file:</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/TimHorton_03.jpg" width="15%"></img></p>
+<p>example of a code block:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39;t&#39;</span> <span class="ow">in</span> <span class="s1">&#39;justin&#39;</span>
+</pre></div>
+</div>
+<p>example of a code block:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="s1">&#39;ABCDE&#39;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>5 executable code cells:</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="mi">5</span><span class="o">-</span><span class="mi">3</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="mi">365</span><span class="o">/</span><span class="mi">12</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>30.416666666666668
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39;x&#39;</span> <span class="ow">in</span> <span class="s1">&#39;apple&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>False
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># for loop way to create a list</span>
+
+<span class="n">mylist</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="s2">&quot;Justin&quot;</span><span class="p">:</span>
+    <span class="n">mylist</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">letter</span><span class="p">)</span>
+
+<span class="n">mylist</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;J&#39;, &#39;u&#39;, &#39;s&#39;, &#39;t&#39;, &#39;i&#39;, &#39;n&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># list comprehension way to create a list</span>
+
+<span class="n">newlist</span> <span class="o">=</span> <span class="p">[</span><span class="n">letter</span> <span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="s2">&quot;Justin&quot;</span><span class="p">]</span>
+
+<span class="n">newlist</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;J&#39;, &#39;u&#39;, &#39;s&#39;, &#39;t&#39;, &#39;i&#39;, &#39;n&#39;]
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -378,11 +492,11 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="notebook-file-1.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="markdown-file-2.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Notebook File 1</p>
+            <p class="prev-next-title">Markdown File 2</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="citation-examples.html" title="next page">
